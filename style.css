@@ -1,0 +1,78 @@
+.container
+{
+    box-sizing: border-box;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header li
+{
+    list-style-type: none;
+    display: inline;
+}
+
+.banniere
+{
+    background-image: url("backgroung_image.jpg");
+    height: 750px;
+}
+
+.banniere h1
+{
+    text-align: center;
+    color: white;
+}
+
+.banniere img
+{
+    display: flex;
+    
+
+}
+
+section h2
+{
+    text-align: center;
+}
+
+#offre
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    height: 300px;
+    width: 60%;
+    padding-left: 400px;
+}
+
+.avis
+{
+    text-align: center;
+}
+
+footer
+{
+    background-color: blueviolet;
+}
+
+.liens
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h4
+{
+    text-align: center;
+}
+
+h3
+{
+    text-transform: uppercase;
+}
