@@ -86,26 +86,73 @@ section h2
     font-weight: lighter;
 }
 
-#offre
+#offre ul #graphisme
 {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    align-content: center;
-    height: 300px;
-    width: 60%;
-    padding-left: 400px;
+    height: 150px;
+    width: 150px;
 }
 
-.avis
+#offre ul #strategie
+{
+    height: 150px;
+    width: 150px;
+}
+
+#offre ul #illustrations
+{
+    height: 150px;
+    width: 150px;
+}
+#offre ul
+{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding: 50px 0;
+}
+
+#offre ul li
+{
+    width: 300px;
+    height: 250px;
+    display: inline-block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 30px 0;
+    
+
+}
+
+#offre ul h3
+{
+    text-transform: uppercase;
+}
+
+#offre ul p
+{
+    font-size: 0.8em;
+}
+
+.avis .texte, .nom
 {
     text-align: center;
 }
 
+.avis .nom
+{
+    font-size: 0.8em;
+    padding-bottom: 30px;
+}
+
+
+/* Footer */
+
 footer
 {
-    background-color: blueviolet;
+    background-color: #6d009e;
+    pading: 50px 0;
+    height: 250px;
 }
 
 .liens
@@ -119,7 +166,7 @@ footer h4
     text-align: center;
 }
 
-h3
+footer h3
 {
     text-transform: uppercase;
 }
