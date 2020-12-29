@@ -1,3 +1,4 @@
+/* General */
 *
 {
     margin: 0;
@@ -8,6 +9,8 @@
 {
     box-sizing: border-box;
 }
+
+/* Header */
 
 header
 {
@@ -41,6 +44,9 @@ a
     color: black;
 
 }
+
+/* Banniere */
+
 .banniere
 {
     background-image: url("backgroung_image.jpg");
@@ -51,18 +57,28 @@ a
 {
     text-align: center;
     color: white;
+    padding: 20 0 0 0;
+    font-size: 3em;
+
 }
 
-.banniere img
-{
+.container .banniere img
+{   
+    height: 90px;
+    width: 300px;
+    margin: auto auto;
     display: flex;
-    
-
+    vertical-align: center;
+    padding-top: 270px;
 }
+
+/* Offre */
 
 section h2
 {
     text-align: center;
+    padding-top: 80px;
+    font-weight: lighter;
 }
 
 #offre
