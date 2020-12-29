@@ -1,3 +1,9 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
 .container
 {
     box-sizing: border-box;
@@ -9,12 +15,32 @@ header
     justify-content: space-between;
 }
 
-header li
+header nav ul li
 {
     list-style-type: none;
     display: inline;
+    margin-right: 20px;
+
 }
 
+header nav
+{
+    display: flex;
+    align-items: center;
+}
+
+header nav ul li
+{
+    font-size: 20px;
+}
+
+a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+
+}
 .banniere
 {
     background-image: url("backgroung_image.jpg");
