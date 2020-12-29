@@ -18,6 +18,11 @@ header
     justify-content: space-between;
 }
 
+header img
+{
+    margin-bottom: 3px;
+}
+
 header nav ul li
 {
     list-style-type: none;
