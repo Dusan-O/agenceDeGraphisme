@@ -180,7 +180,7 @@ section .presentation h2
 footer
 {
     background-color: #6d009e;
-    pading: 50px 0;
+    padding: 50px 0;
     height: 280px;
 }
 
@@ -189,7 +189,7 @@ footer
     display: flex;
     justify-content: space-around;
     padding-top: 65px;
-    padding-bottom: 20px;s
+    padding-bottom: 20px;
 }
 
 
